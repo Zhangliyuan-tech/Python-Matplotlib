@@ -1,1 +1,1 @@
-本项目代码是莫烦Python教程视频代码。
+本项目代码是Python Matplotlib绘图视频教程代码。
