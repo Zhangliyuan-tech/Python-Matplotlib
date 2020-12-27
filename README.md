@@ -1,1 +1,1 @@
-本项目代码是Python Matplotlib绘图视频教程代码。
+本项目代码是MATLAB基本绘图代码。
