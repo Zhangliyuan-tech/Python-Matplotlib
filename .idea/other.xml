@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PySciProjectComponent">
+    <option name="PY_MATPLOTLIB_IN_TOOLWINDOW" value="false" />
+  </component>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PySciProjectComponent">
+    <option name="PY_MATPLOTLIB_IN_TOOLWINDOW" value="false" />
+  </component>
+>>>>>>> 6642bd0 (2023年第一个版本)
+</project>
