@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @echo off
 
 if defined _OLD_VIRTUAL_PROMPT (
@@ -43,3 +44,26 @@ set VIRTUAL_ENV=
 
 :END
 >>>>>>> 6642bd0 (2023年第一个版本)
+=======
+@echo off
+
+if defined _OLD_VIRTUAL_PROMPT (
+    set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
+)
+set _OLD_VIRTUAL_PROMPT=
+
+if defined _OLD_VIRTUAL_PYTHONHOME (
+    set "PYTHONHOME=%_OLD_VIRTUAL_PYTHONHOME%"
+    set _OLD_VIRTUAL_PYTHONHOME=
+)
+
+if defined _OLD_VIRTUAL_PATH (
+    set "PATH=%_OLD_VIRTUAL_PATH%"
+)
+
+set _OLD_VIRTUAL_PATH=
+
+set VIRTUAL_ENV=
+
+:END
+>>>>>>> 63023c4c8e7c4d8360bf409edb582225be0c1289

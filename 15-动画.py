@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import animation
@@ -37,4 +38,24 @@ def init():
 ani = animation.FuncAnimation(fig = fig, func =animate,frames=100,init_func=init,interval=20,blit=False)
 
 >>>>>>> 6642bd0 (2023年第一个版本)
+=======
+import numpy as np
+from matplotlib import pyplot as plt
+from matplotlib import animation
+
+fig, ax = plt.subplots()
+x = np.arange(0, 2*np.pi, 0.01)
+line, = ax.plot(x, np.sin(x))
+
+def animate(i):
+    line.set_ydata(np.sin(x+i/10))
+    return line,
+
+def init():
+    line.set_ydata(np.sin(x))
+    return line,
+
+ani = animation.FuncAnimation(fig = fig, func =animate,frames=100,init_func=init,interval=20,blit=False)
+
+>>>>>>> 63023c4c8e7c4d8360bf409edb582225be0c1289
 plt.show()

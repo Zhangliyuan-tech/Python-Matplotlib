@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #!C:\Users\LENOVO\Desktop\python��ͼ\Scripts\python.exe -x
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==19.0.3','console_scripts','pip3.7'
 __requires__ = 'pip==19.0.3'
@@ -25,3 +26,17 @@ if __name__ == '__main__':
         load_entry_point('pip==19.0.3', 'console_scripts', 'pip3.7')()
     )
 >>>>>>> 6642bd0 (2023年第一个版本)
+=======
+#!C:\Users\LENOVO\Desktop\python��ͼ\Scripts\python.exe -x
+# EASY-INSTALL-ENTRY-SCRIPT: 'pip==19.0.3','console_scripts','pip3.7'
+__requires__ = 'pip==19.0.3'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('pip==19.0.3', 'console_scripts', 'pip3.7')()
+    )
+>>>>>>> 63023c4c8e7c4d8360bf409edb582225be0c1289
